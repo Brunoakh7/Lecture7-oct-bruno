@@ -58,3 +58,82 @@ header {
 }
 
 /* top header */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 48px;
+}
+
+.list-items {
+  position: relative;
+  line-height: 24px;
+}
+
+.list-items::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 0%;
+  background-color: #000;
+  transition: 0.3 ease;
+}
+
+.list-items:hover::after {
+  width: 100%;
+}
+
+.logo-and-nav {
+  width: 675px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-section {
+  width: 243px;
+  height: 38px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.search-and-cart {
+  width: 357px;
+  display: flex;
+}
+
+.search-text {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.search-section img {
+  width: 24px;
+  height: 24px;
+}
+
+.wishlist {
+  margin: 0px 16px 0px 24px;
+}
+
+.wishlist,
+.cart {
+  cursor: pointer;
+}
