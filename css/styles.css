@@ -137,3 +137,56 @@ header {
 .cart {
   cursor: pointer;
 }
+
+/* main header */
+
+.main-content {
+  display: flex;
+  column-gap: 45px;
+}
+
+.categories-filter {
+  width: 233px;
+  height: 384px;
+  padding: 40px 16px 0px 0px;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.filters-lists {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.product-banner {
+  width: 892px;
+  height: 344px;
+  margin-top: 40px;
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-section {
+  width: 320px;
+  padding: 56px 0px 0px 64px;
+}
+
+.iphone-series {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+}
+
+.text-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.image-section {
+  width: 496px;
+  height: 344px;
+}
